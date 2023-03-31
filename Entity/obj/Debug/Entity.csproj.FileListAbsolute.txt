@@ -1,0 +1,9 @@
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\Entity\bin\Debug\Entity.dll
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\Entity\bin\Debug\Entity.pdb
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\Entity\obj\Debug\Entity.dll
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\Entity\obj\Debug\Entity.pdb
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\Entity\bin\Debug\Entity.dll
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\Entity\bin\Debug\Entity.pdb
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\Entity\obj\Debug\Entity.dll
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\Entity\obj\Debug\Entity.pdb
