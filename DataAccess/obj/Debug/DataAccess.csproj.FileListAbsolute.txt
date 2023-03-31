@@ -1,0 +1,14 @@
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\bin\Debug\Entity.dll
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\bin\Debug\Entity.pdb
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\传说\Desktop\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\obj\Debug\DataAccess.pdb
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\bin\Debug\DataAccess.dll
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\bin\Debug\DataAccess.pdb
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\bin\Debug\Entity.dll
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\bin\Debug\Entity.pdb
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\obj\Debug\DataAccess.dll
+E:\des\des_20220512\卡牌管理系统\卡牌管理系统\carddatabase\DataAccess\obj\Debug\DataAccess.pdb
