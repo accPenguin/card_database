@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+       
+        .body{
+             background-image:url(../image/background.jpg);
+        
+        }
+        .auto-style1 {
+            width: 34%;
+            height: 79%;
+           
+        }
+        .auto-style2 {
+            height: 16%;
+            width: 797px;
+             
+        }
+      
+        .button {
+    background-color: #e7e7e7; color: black;; /* Green */
+    border: none;
+    color: black;
+    padding: 7px 17px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+       
+    </style>
+</head>
+<body style="background-color:white" class="body" >
+  
+
+    <form  id="form1" runat="server">
+        <table >
+            <tr  >
+                <td class ="auto-style1">
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/image/logo.png" 
+                         Width="300px" />
+                    </td>
+                
+            </tr>                        
+           
+          
+            <tr  style="height:5%" class="auto-style2">
+                <td class="listfont1"colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink12" runat="server" class ="button"   NavigateUrl="~/查询结果页面.aspx" EnableTheming="True"  Font-Overline="false">首页</asp:HyperLink>
+                    &nbsp; &nbsp;&nbsp;<asp:HyperLink ID="HyperLink9" runat="server" class ="button"   NavigateUrl="~/套牌.aspx" Font-Overline="false">套牌</asp:HyperLink>
+                    &nbsp; &nbsp;&nbsp;<asp:HyperLink ID="HyperLink10" runat="server" class ="button"   NavigateUrl="~/卡背.aspx" Font-Overline="false">卡背</asp:HyperLink>
+                    &nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink11" runat="server" class ="button"   NavigateUrl="~/查询结果页面.aspx" Font-Overline="false">所有商品</asp:HyperLink>
+                    &nbsp;&nbsp; &nbsp; <asp:TextBox ID="keyword" runat="server" Width="290px"  class ="button"  Height="21px" OnTextChanged="keyword_TextChanged"></asp:TextBox>
+                    &nbsp;&nbsp;&nbsp
+                    <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="搜索"  class ="button"  />
+                    &nbsp;&nbsp;
+                     <asp:HyperLink ID="hlkLogin" runat="server" NavigateUrl="~/登录.aspx" Font-Overline="False" class ="button"   >登录</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:HyperLink ID="HlkRegist" runat="server" NavigateUrl="~/注册.aspx" Font-Overline="False"  class ="button"  >注册</asp:HyperLink>
+&nbsp;&nbsp;    
+                    <asp:HyperLink ID="hlkCart" runat="server" NavigateUrl="~/cartt.aspx" Font-Overline="false" class ="button"   >购物车</asp:HyperLink>
+&nbsp;&nbsp; <asp:HyperLink ID="hlkOrder" runat="server" NavigateUrl="~/订单.aspx" Font-Overline="false" class ="button"  >我的订单</asp:HyperLink>
+                &nbsp;&nbsp;
+                    <asp:LinkButton ID="lbtnExit" runat="server" OnClick="LinkButton1_Click2" Font-Overline="false" class ="button"  >退出</asp:LinkButton>
+                    </td>
+            </tr>
+            <tr style="height:80%"  align="center" >
+                <td >
+                   </br>
+                    </br>
+                    </br>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    
+                </td>
+            </tr>
+            <tr style="height:15%; background-color :#99CCFF" align="center">
+                <td colspan="6">
+                    
+                    &nbsp;炉石传说卡牌管理网站 联系我们：13079809135 版权所有：NTC小队：13079809135 版权所有：NTC小队<br />
+           
+                    <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/admin/Default.aspx">管理员入口</asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
